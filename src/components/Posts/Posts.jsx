@@ -3,19 +3,25 @@ import Post from "./Post";
 const Posts = () => {
     const blogPosts = [
         {
-        title: "JAVASCRIPT",
-        body: `JavaScript is the world most popular
-        lightweight, interpreted compiled programming
-        language. It is also known as scripting
-        language for web pages. It is well-known for
-        the development of web pages, many non-browser
-        environments also use it. JavaScript can be
-        used for Client-side developments as well as
-        Server-side developments`,
-        author: "Nishant Singh ",
-        imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
-        },
+            title: "REACT",
+            body: `React is a popular open-source JavaScript library for building user interfaces, especially single-page applications. It uses a component-based architecture, allowing developers to create reusable UI components that manage their own state. React optimizes performance with a virtual DOM, updating only the parts of the real DOM that have changed. The library uses JSX, a syntax extension that combines JavaScript and HTML-like elements, making code more intuitive and easier to write. React's declarative approach ensures that the UI is updated efficiently in response to data changes, enhancing both development and user experience.`,
+            author: "Chat GPT",
+            imgUrl:
+                "https://create-react-app.dev/img/logo.svg",
+            },
+            {
+                title: "JAVASCRIPT",
+                body: `JavaScript is the world most popular
+                lightweight, interpreted compiled programming
+                language. It is also known as scripting
+                language for web pages. It is well-known for
+                the development of web pages, many non-browser
+                environments also use it. JavaScript can be
+                used for Client-side developments as well as
+                Server-side developments`,
+                author: "Nishant Singh ",
+                imgUrl: "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            },
         {
         title: "Data Structure ",
         body: `There are many real-life examples of
