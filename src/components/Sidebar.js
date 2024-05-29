@@ -29,7 +29,7 @@ const NavIcon = styled(Link)`
 const SidebarNav = styled.nav`
 	background: #15171c;
 	width: 250px;
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	position: fixed;
@@ -60,11 +60,11 @@ const Sidebar = () => {
 					<h1
 						style={{
 							textAlign: "center",
-							marginLeft: "200px",
+							marginLeft: "40px",
 							color: "green",
 						}}
 					>
-						GeeksforGeeks
+						Rooman Gulzar Blogs.
 					</h1>
 				</Nav>
 				<SidebarNav sidebar={sidebar}>
