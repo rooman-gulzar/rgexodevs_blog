@@ -16,73 +16,30 @@ export const SidebarData = [
 
 		subNav: [
 			{
-				title: "Our Aim",
-				path: "/about-us/aim",
-				icon: <IoIcons.IoIosPaper />,
-			},
-			{
-				title: "Our Vision",
-				path: "/about-us/vision",
+				title: "All Posys",
+				path: "/Posts/Post",
 				icon: <IoIcons.IoIosPaper />,
 			},
 		],
 	},
 	{
 		title: "Services",
-		path: "/services",
+		path: "/Weathers/Weather",
 		icon: <IoIcons.IoIosPaper />,
 		iconClosed: <RiIcons.RiArrowDownSFill />,
 		iconOpened: <RiIcons.RiArrowUpSFill />,
 
 		subNav: [
 			{
-				title: "Service 1",
-				path: "/services/services1",
+				title: "Current Weather",
+				path: "/Weathers/Weather",
 				icon: <IoIcons.IoIosPaper />,
-				cName: "sub-nav",
 			},
 			{
-				title: "Service 2",
-				path: "/services/services2",
+				title: "Current Location",
+				path: "/Locations/Location",
 				icon: <IoIcons.IoIosPaper />,
-				cName: "sub-nav",
-			},
-			{
-				title: "Service 3",
-				path: "/services/services3",
-				icon: <IoIcons.IoIosPaper />,
-			},
+			}
 		],
-	},
-	{
-		title: "Contact",
-		path: "/contact",
-		icon: <FaIcons.FaPhone />,
-	},
-	{
-		title: "Events",
-		path: "/events",
-		icon: <FaIcons.FaEnvelopeOpenText />,
-
-		iconClosed: <RiIcons.RiArrowDownSFill />,
-		iconOpened: <RiIcons.RiArrowUpSFill />,
-
-		subNav: [
-			{
-				title: "Event 1",
-				path: "/events/events1",
-				icon: <IoIcons.IoIosPaper />,
-			},
-			{
-				title: "Event 2",
-				path: "/events/events2",
-				icon: <IoIcons.IoIosPaper />,
-			},
-		],
-	},
-	{
-		title: "Support",
-		path: "/support",
-		icon: <IoIcons.IoMdHelpCircle />,
 	},
 ];
